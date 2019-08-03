@@ -1,5 +1,5 @@
 echo "<----------start provision--------------->"
-
+echo "DNS1=8.8.8.8" | sudo tee -a /etc/network/interface
 echo "
 deb http://mirrors.aliyun.com/debian buster main contrib non-free
 deb http://mirrors.aliyun.com/debian buster-proposed-updates main contrib non-free
